@@ -822,6 +822,10 @@ video {
   height: 8rem;
 }
 
+.w-56 {
+  width: 14rem;
+}
+
 .w-\[this-is\\\\\] {
   width: this-is\\;
 }
@@ -832,10 +836,6 @@ video {
 
 .w-\[weird-and-invalid\] {
   width: weird-and-invalid;
-}
-
-.w-56 {
-  width: 14rem;
 }
 
 .flex-shrink {
@@ -1801,9 +1801,9 @@ video {
   background-color: rgb(255 0 0 / var(--tw-bg-opacity));
 }
 
-.bg-gray-800 {
+.bg-color-primary {
   --tw-bg-opacity: 1;
-  background-color: rgb(31 41 55 / var(--tw-bg-opacity));
+  background-color: rgb(1 5 30 / var(--tw-bg-opacity));
 }
 
 .decoration-slice {
